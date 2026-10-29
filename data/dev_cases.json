@@ -1,0 +1,66 @@
+[
+  {
+    "id": "dev-01",
+    "text": "Automate document data entry into our CRM.",
+    "expected_routes": [
+      "ai_automation"
+    ],
+    "expected_behavior": "suggest"
+  },
+  {
+    "id": "dev-02",
+    "text": "Build a custom mobile application and backend API.",
+    "expected_routes": [
+      "software"
+    ],
+    "expected_behavior": "suggest"
+  },
+  {
+    "id": "dev-03",
+    "text": "Move our servers to AWS cloud hosting.",
+    "expected_routes": [
+      "cloud"
+    ],
+    "expected_behavior": "suggest"
+  },
+  {
+    "id": "dev-04",
+    "text": "Improve organic search rankings and paid ads.",
+    "expected_routes": [
+      "marketing"
+    ],
+    "expected_behavior": "suggest"
+  },
+  {
+    "id": "dev-05",
+    "text": "I want coding practice and AI mock interviews in Cynbit Studio.",
+    "expected_routes": [
+      "studio"
+    ],
+    "expected_behavior": "suggest"
+  },
+  {
+    "id": "dev-06",
+    "text": "Track tenant rent payments and property occupancy.",
+    "expected_routes": [
+      "tenantease"
+    ],
+    "expected_behavior": "suggest"
+  },
+  {
+    "id": "dev-07",
+    "text": "Manage Google reviews and sentiment across branches.",
+    "expected_routes": [
+      "revio"
+    ],
+    "expected_behavior": "suggest"
+  },
+  {
+    "id": "dev-08",
+    "text": "I need a college internship training program.",
+    "expected_routes": [
+      "bitelevate"
+    ],
+    "expected_behavior": "suggest"
+  }
+]

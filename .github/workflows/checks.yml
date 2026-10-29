@@ -1,0 +1,34 @@
+name: Checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements-lock.txt
+      - name: Check code style
+        run: |
+          ruff check .
+          ruff format --check .
+      - name: Run engine and UI tests
+        run: pytest -q
+      - name: Evaluate retrieval baselines
+        run: python scripts/evaluate.py --output /tmp/evaluation.json
+      - name: Save evaluation results
+        uses: actions/upload-artifact@v4
+        with:
+          name: retrieval-evaluation
+          path: /tmp/evaluation.json
