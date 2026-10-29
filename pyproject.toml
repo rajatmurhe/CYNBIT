@@ -1,0 +1,15 @@
+[project]
+name = "cynbit-discovery"
+version = "0.1.0"
+description = "Source-backed inquiry routing and discovery briefs for Cynbit"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

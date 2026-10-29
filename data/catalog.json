@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ai_automation",
+    "title": "AI automation",
+    "kind": "Service",
+    "summary": "Agents, document workflows, voice interfaces and AI integrations.",
+    "source_url": "https://www.cynbit.in/services",
+    "source_section": "AI automation suite",
+    "reviewed_on": "2026-10-29",
+    "search_terms": "automate automation manual repetitive tasks document extraction invoices data entry chatbot assistant LLM agents voice calls CRM workflow integration lead coordination",
+    "questions": ["Which repeated task should the first workflow handle?", "What systems and documents does it need to read or update?", "Which actions must a person approve?"],
+    "next_step": "Map one workflow and agree on a small, measurable pilot."
+  },
+  {
+    "id": "software",
+    "title": "Custom software development",
+    "kind": "Service",
+    "summary": "Web and mobile applications, backend systems and legacy modernization.",
+    "source_url": "https://www.cynbit.in/services",
+    "source_section": "Custom IT services",
+    "reviewed_on": "2026-10-29",
+    "search_terms": "build develop custom software web website mobile app application backend API dashboard SaaS platform portal booking ecommerce database legacy ERP monolith modernization",
+    "questions": ["Who will use the application, and what must they accomplish?", "Which features are essential for the first release?", "Are there existing systems or APIs to integrate?"],
+    "next_step": "Define the first user journey and a short list of release requirements."
+  },
+  {
+    "id": "cloud",
+    "title": "Cloud infrastructure",
+    "kind": "Service",
+    "summary": "AWS and Azure infrastructure and deployment support.",
+    "source_url": "https://www.cynbit.in/services",
+    "source_section": "Cloud infrastructure",
+    "reviewed_on": "2026-10-29",
+    "search_terms": "cloud AWS Azure hosting deployment infrastructure server migration scaling traffic downtime availability DevOps containers Kubernetes reliability compute",
+    "questions": ["What does the current hosting setup look like?", "What traffic, availability and recovery requirements matter?", "What constraints apply to data location and access?"],
+    "next_step": "Review the current deployment and document reliability requirements."
+  },
+  {
+    "id": "marketing",
+    "title": "Digital marketing and technical SEO",
+    "kind": "Service",
+    "summary": "Search optimization, paid campaigns, CRM and conversion funnels.",
+    "source_url": "https://www.cynbit.in/services",
+    "source_section": "Digital marketing",
+    "reviewed_on": "2026-10-29",
+    "search_terms": "SEO search ranking organic traffic marketing ads Google Meta campaigns leads acquisition conversion funnel landing pages CRM nurture advertising performance",
+    "questions": ["Which audience and acquisition channel matter most?", "What conversion event and baseline can we measure?", "Which analytics and campaign accounts are available for review?"],
+    "next_step": "Audit one acquisition funnel before recommending a campaign."
+  },
+  {
+    "id": "studio",
+    "title": "Cynbit Studio",
+    "kind": "Product",
+    "summary": "A career platform with adaptive coding practice and AI feedback.",
+    "source_url": "https://www.cynbit.in/products",
+    "source_section": "Cynbit studio",
+    "reviewed_on": "2026-10-29",
+    "search_terms": "Cynbit Studio coding practice adaptive learning assessment missions code evaluation feedback AI mentor resume mock interview job matching career platform student skill",
+    "questions": ["Is this for an individual learner or an institution?", "Is the immediate need practice, assessment or career preparation?", "What skill level and subject should the demonstration cover?"],
+    "next_step": "Arrange a product-fit discussion around one learning outcome."
+  },
+  {
+    "id": "tenantease",
+    "title": "TenantEase",
+    "kind": "Product",
+    "summary": "Property operations, tenant records and rent tracking in one system.",
+    "source_url": "https://www.cynbit.in/products",
+    "source_section": "TenantEase",
+    "reviewed_on": "2026-10-29",
+    "search_terms": "TenantEase property landlord tenant tenants rent rental collection payments dues reminders rooms units occupancy buildings apartment management vacancy",
+    "questions": ["How many properties and units need to be managed?", "How are rent payments and pending dues recorded today?", "Which staff roles need access?"],
+    "next_step": "Check product fit using a sample property and rent workflow."
+  },
+  {
+    "id": "revio",
+    "title": "Revio",
+    "kind": "Product",
+    "summary": "Review management with sentiment analysis and response assistance.",
+    "source_url": "https://www.cynbit.in/products",
+    "source_section": "Revio",
+    "reviewed_on": "2026-10-29",
+    "search_terms": "Revio reviews review reputation ratings feedback sentiment response replies Google social brand branches location negative complaints crisis",
+    "questions": ["Which review platforms and business locations need coverage?", "Who should approve sensitive replies?", "What review volume and escalation categories should the pilot cover?"],
+    "next_step": "Review a sample feedback queue and define an approval policy."
+  },
+  {
+    "id": "bitelevate",
+    "title": "BitElevate",
+    "kind": "Program",
+    "summary": "Project-based software engineering training and internship preparation.",
+    "source_url": "https://www.cynbit.in/bitelevate",
+    "source_section": "Software Engineering Internship & Industry Readiness",
+    "reviewed_on": "2026-10-29",
+    "search_terms": "BitElevate internship intern training program cohort college engineering CSE student industrial hands on projects mentorship certificate curriculum enrollment admission practical",
+    "questions": ["Which engineering track would you like to pursue?", "What is your current experience and availability?", "Do you have a college training requirement to discuss?"],
+    "next_step": "Direct the inquiry to the program team for eligibility and availability."
+  }
+]
